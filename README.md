@@ -1,48 +1,52 @@
 # 🌦️ Afford Weather Dashboard
 
-A sleek and responsive weather dashboard built using React. Check the real-time weather of any city using the OpenWeather API.
+A sleek and responsive weather dashboard built using **React**. Easily check real-time weather data for any city using the OpenWeather API.
 
-🔗 **Live Demo**: [https://afford-weather.onrender.com](https://afford-weather.onrender.com)
+🔗 **Live Demo**: [Check Weather](https://afford-weather.onrender.com)
 
 ---
 
-## 📸 Screenshots
-
-> Coming soon...
+## 📸 Screenshots  
+> *Coming soon...*
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Search weather by city name
-- 🌡️ Displays temperature, humidity, wind speed, and more
-- 🎨 Clean and responsive UI
-- ⚡ Powered by OpenWeather API
+- 🔍 **City Search** – Get weather info by city name  
+- 🌡️ **Weather Data** – Displays temperature, humidity, wind speed, and conditions  
+- 📱 **Responsive UI** – Works seamlessly on all devices  
+- ⚡ **Powered by OpenWeather API**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, JavaScript (ES6+), HTML5, CSS3  
+- **API**: [OpenWeather API](https://openweathermap.org/api)
 
 ---
 
 ## 📁 Project Structure
-🌐 Deployment
-This app is deployed on Render.
 
-Render Configuration:
-Root Directory: client
 
-Build Command: npm install && npm run build
+---
 
-Publish Directory: client/build
+## 🌐 Deployment
 
-Live URL: https://afford-weather.onrender.com
+Deployed on **Render**
 
-💡 Tech Stack
-React
+**Configuration**:  
+- **Root Directory**: `client`  
+- **Build Command**: `npm install && npm run build`  
+- **Publish Directory**: `client/build`  
+- **Live URL**: [https://afford-weather.onrender.com](https://afford-weather.onrender.com)
 
-JavaScript (ES6+)
+---
 
-HTML5 & CSS3
+## 📬 Contact
 
-OpenWeather API
+Made with ❤️ by **Pranjal Mridul**
 
-📬 Contact
-Made by Pranjal Mridul
-GitHub • Linktree
+- [GitHub](https://github.com/pmc0707)  
+- [Linktree](https://linktr.ee/pmc0707)
