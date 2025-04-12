@@ -23,7 +23,7 @@ function App() {
 
   const handleSearch = async (city) => {
     try {
-      const res = await axios.get(`http://localhost:5000/weather/${city}`);
+      const res = await axios.get(`https://weather-backend-uuw5.onrender.com/weather/${city}`);
       setWeather(res.data);
     } catch (err) {
       alert("City not found!");
@@ -44,7 +44,7 @@ function App() {
       >
         <Header />
         <Navbar />
-
+        
         <Routes>
           <Route path="/" element={<Home weather={weather} handleSearch={handleSearch} />} />
           <Route path="/about" element={<About />} />
