@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -7,9 +8,15 @@ function Header() {
         🌦️ Weatherify
       </div>
       <ul style={styles.navLinks}>
-        <li style={styles.link}>Home</li>
-        <li style={styles.link}>About</li>
-        <li style={styles.link}>Contact</li>
+        <li>
+          <Link to="/" style={styles.link}>Home</Link>
+        </li>
+        <li>
+          <Link to="/about" style={styles.link}>About</Link>
+        </li>
+        <li>
+          <Link to="/contact" style={styles.link}>Contact</Link>
+        </li>
       </ul>
     </nav>
   );
@@ -38,8 +45,11 @@ const styles = {
     display: 'flex',
     gap: '20px',
     margin: 0,
+    padding: 0,
   },
   link: {
+    color: '#fff',
+    textDecoration: 'none',
     cursor: 'pointer',
     transition: 'color 0.3s',
   }
