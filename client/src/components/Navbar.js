@@ -1,4 +1,4 @@
-// ==================== src/components/WeatherCarousel.js ====================
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -7,7 +7,13 @@ import { faSun, faCloud, faCloudShowersHeavy } from '@fortawesome/free-solid-svg
 
 function WeatherCarousel() {
   return (
-    <div id="weatherCarousel" className="carousel slide m-5" data-bs-ride="carousel" style={{ background: 'url(https://i.ibb.co/jvXTLqG/sprinkle-weather-bg.jpg)', backgroundSize: 'cover', borderRadius: '1rem' }}>
+    <div
+      id="weatherCarousel"
+      className="carousel slide m-5"
+      data-bs-ride="carousel"
+      style={{ height: '230px', backgroundColor: 'rgba(125, 119, 119, 0.01)', borderRadius: '1rem' }}
+
+    >
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#weatherCarousel" data-bs-slide-to="0" className="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#weatherCarousel" data-bs-slide-to="1" className="bg-secondary" aria-label="Slide 2"></button>

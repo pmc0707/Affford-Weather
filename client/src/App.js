@@ -34,8 +34,8 @@ function App() {
         <Header/>
         <Navbar />
         
-        <div style={{ textAlign: 'center', marginTop: 50 }}>
-          <h1>Weather Dashboard 🌤️</h1>
+        <div style={{ textAlign: 'center', marginTop: 15 }}>
+          <h1 style={{color:'#3498db'}}>Weather Dashboard 🌤️</h1>
           <SearchBar onSearch={handleSearch} />
           {weather && <WeatherCard data={weather} />}
         </div>
